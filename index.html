@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header><h1>Editable Resume Builder by Tahami Kashif</h1></header>
+   <form id="resumeform">
+     <fieldset>
+     <legend>Personal Information</legend>
+     <label for="name">Name:</label>
+     <input type="text" id="name" name="name" required><br>
+
+      <label for="phone">Contact:</label>
+      <input type="number" id="phone" name="phone" required><br>
+
+       <label for="email">Email</label>
+       <input type="email" id="email" name="email" required><br>
+     </fieldset>
+
+<fieldset>
+      <legend>Education</legend>
+      <label for="education">Education</label>
+      <textarea id="education" name="education" rows="4" required></textarea>
+
+</fieldset>
+
+
+<fieldset>
+    <legend>Experiance</legend>
+    <label for="experiance">Experiance</label>
+    <textarea id="experiance" name="experiance" rows="4" required></textarea>
+
+</fieldset>
+
+
+<fieldset>
+    <legend>Skills</legend>
+    <label for="skills">Skills</label>
+    <textarea id="skills" name="skills" rows="4" required></textarea>
+
+</fieldset>
+<button type="submit">Generate Resume Here</button>
+   </form>
+
+ <div class="resume-section" contenteditable="true">
+  <h3>Resume Preview...</h3>
+  <div id="resume-preview">
+   <h3 id="preview-name" contenteditable="true"></h3>
+    <p id="preview-email" contenteditable="true"></p>
+     <p id="preview-phone" contenteditable="true"></p>
+     <h4>Education</h4>
+     <p id="preview-education" contenteditable="true"></p>
+     <h4>Experiance</h4>
+     <p id="preview-experiance" contenteditable="true"></p>
+     <h4>Skills</h4>
+     <p id="preview-skills" contenteditable="true"></p>
+  </div>
+</div>
+
+
+
+<script src="app.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
